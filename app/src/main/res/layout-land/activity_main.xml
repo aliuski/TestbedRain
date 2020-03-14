@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/timeView"
+            android:text="-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+        <SeekBar
+            android:id="@+id/simpleSeekBar"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:max="14"
+            android:progress="1"
+            android:rotation="270" />
+    </LinearLayout>
+    <com.probe.aki.testbedrain.ShowDisplay
+            android:id="@+id/showDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            />
+</LinearLayout>

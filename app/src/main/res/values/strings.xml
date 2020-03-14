@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestbedRain</string>
+    <string name="download_text">Ladataan uudet kartat</string>
+    <string name="error_download_text">Lataus epäonnistu</string>
+</resources>
